@@ -54,3 +54,31 @@ int count=0,i,j;char is_prime='T';
 
 
 */
+
+
+/* 
+
+#include<stdio.h>
+int main(){
+int count=0,i=2,j;char is_prime='T';
+
+    
+        while(count<10){
+            is_prime='T';
+            for(j=2;j<i;j++){
+                if(i%j==0){
+                    is_prime='F';
+                    break;
+                }
+            }
+            if (is_prime=='T'){
+            printf("%d\n",i);
+            count++;
+                }
+                i++;
+            }
+
+}
+
+
+*/
