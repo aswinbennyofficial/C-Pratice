@@ -15,6 +15,9 @@ int count=0,i,j,div=0;
             count++;
                 }
             }
+        else{
+            break;
+        }
     }
 
 }
